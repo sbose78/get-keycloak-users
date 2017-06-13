@@ -4,6 +4,9 @@ import requests
 
 SSO_SERVER = "https://" + os.environ['SSO_SERVER'] # sso.osio.org
 SSO_TOKEN = os.environ['SSO_ADMIN_API_TOKEN'] # without the 'bearer '
+
+# TODO : Handle errors when env variables aren't setup properly
+
 APPROVED_USERS_FILE = "approved_users.json"
 
 SSO_URL = SSO_SERVER + "/auth/admin/realms/fabric8/users?max=1000&search=redhat.com"
