@@ -18,6 +18,15 @@ pip install -r requirements.txt
 python get_approved_users.py
 ```
 
+##### Sample output
+
+```
+$ python get_approved_users.py 
+Fetching data from keycloak, this will take a while.....
+Server returned response code 200
+Creating list of approved users..
+Total approved users : 268
+```
 
 ### Drawbacks
 The Users' API doesn't give the meta info of total number of users, 
