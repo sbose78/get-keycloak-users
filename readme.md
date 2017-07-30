@@ -13,6 +13,7 @@ export SSO_ADMIN_API_TOKEN=eyJhbGciOiJSU__TOKEN___n1jd32kA
 
 ##### Run the script using python2.7
 
+`pip install -r requirements.txt`
 `python get_approved_users.py`
 
 
