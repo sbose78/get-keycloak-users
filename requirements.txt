@@ -10,6 +10,6 @@ policycoreutils-default-encoding==0.1
 requests==2.18.2
 seobject==0.1
 sepolicy==1.1
-urllib3==1.22
+urllib3==1.24.2
 vboxapi==1.0
 webcolors==1.5
